@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { NumberListComponent } from './number-list/number-list.component';
+import { NumberPrefixPipePipe } from './number-prefix-pipe.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NumberListComponent,
+    NumberPrefixPipePipe
   ],
   imports: [
     BrowserModule,
